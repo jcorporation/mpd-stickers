@@ -14,7 +14,16 @@ Client developers should create a standard for common sticker names, to ensure i
 
 ## Clients with sticker support
 
+- [Cantata](https://github.com/CDrummond/cantata)
 - [myMPD](https://github.com/jcorporation/myMPD)
+
+### Cantata
+
+Archived, is there any maintained fork?
+
+| Sticker | Format | Description |
+| ------- | ------ | ----------- |
+| rating | integer in range 0-10 | 5 Stars rating, with half-stars |
 
 ### myMPD
 
