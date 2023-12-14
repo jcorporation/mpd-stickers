@@ -24,21 +24,22 @@ Archived, is there any maintained fork?
 
 | Sticker | Format | Description |
 | ------- | ------ | ----------- |
-| rating | integer in range 0-10 | 5 Stars rating, with half-stars |
+| rating | Integer in range 0-10 | 5 Stars rating, with half-stars |
 
 ### mpdev
 
 | Sticker | Format | Description |
 | ------- | ------ | ----------- |
-| rating | integer in range 0-10 | 5 Stars rating, with half-stars |
+| rating | Integer in range 0-10 | 5 Stars rating, with half-stars |
 
 ### myMPD
 
 | Sticker | Format | Description |
 | ------- | ------ | ----------- |
-| elapsed | unix timestamp | recent song position |
-| lastPlayed | unix timestamp | last played time of song (unix timestamp) |
-| lastSkipped | unix timestamp | last skipped time of songs (unix timestamp) |
-| like | integer in range 0-2 |0 - dislike, 1 - neutral, 2 - like |
-| playCount | integer | How often the song was played |
-| skipCount | integer | How often the song was skipped |
+| elapsed | Unix timestamp | Recent song position |
+| lastPlayed | Unix timestamp | Last played time of song |
+| lastSkipped | Unix timestamp | Last skipped time of songs |
+| like | Integer in range 0-2 |0 - dislike, 1 - neutral, 2 - like |
+| playCount | Integer | How often the song was played |
+| rating | Integer in range 0-10 | 5 Stars rating |
+| skipCount | Integer | How often the song was skipped |
