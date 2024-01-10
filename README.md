@@ -6,7 +6,7 @@ The ultimate goal of this project is to create a standard for common sticker nam
 
 ## From the MPD documentation
 
-“Stickers” 2 are pieces of information attached to existing MPD objects (e.g. song files, directories, albums; but currently, they are only implemented for song). Clients can create arbitrary name/value pairs. MPD itself does not assume any special meaning in them.
+“Stickers” are pieces of information attached to existing MPD objects (e.g. song files, directories, albums; but currently, they are only implemented for song). Clients can create arbitrary name/value pairs. MPD itself does not assume any special meaning in them.
 
 The goal is to allow clients to share additional (possibly dynamic) information about songs, which is neither stored on the client (not available to other clients), nor stored in the song files (MPD has no write access).
 
