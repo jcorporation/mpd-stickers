@@ -14,13 +14,12 @@ Client developers should create a standard for common sticker names, to ensure i
 
 ## Clients with sticker support
 
-- [Cantata](https://github.com/CDrummond/cantata)
+- [Cantata](https://github.com/nullobsi/cantata)
 - [mpdev](https://github.com/mbhangui/mpdev)
 - [myMPD](https://github.com/jcorporation/myMPD)
+- [MAENMPC](https://github.com/m7a/lo-maenmpc)
 
 ### Cantata
-
-Archived, is there any maintained fork?
 
 | Sticker | Format | Description |
 | ------- | ------ | ----------- |
@@ -43,3 +42,10 @@ Archived, is there any maintained fork?
 | playCount | Integer | How often the song was played |
 | rating | Integer in range 0-10 | 5 Stars rating |
 | skipCount | Integer | How often the song was skipped |
+
+### MAENMPC
+
+| Sticker | Format | Description |
+| ------- | ------ | ----------- |
+| playCount | Integer | How often the song was played (limited support) |
+| rating | Integer in range 0-10 | 5 Stars rating |
