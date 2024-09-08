@@ -14,13 +14,11 @@ Client developers should create a standard for common sticker names, to ensure i
 
 ## Clients with sticker support
 
-- [Cantata](https://github.com/CDrummond/cantata)
+- [Cantata](https://github.com/nullobsi/cantata)
 - [mpdev](https://github.com/mbhangui/mpdev)
 - [myMPD](https://github.com/jcorporation/myMPD)
 
 ### Cantata
-
-Archived, is there any maintained fork?
 
 | Sticker | Format | Description |
 | ------- | ------ | ----------- |
