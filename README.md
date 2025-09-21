@@ -18,6 +18,7 @@ Client developers should create a standard for common sticker names, to ensure i
 - [mpdev](https://github.com/mbhangui/mpdev)
 - [myMPD](https://github.com/jcorporation/myMPD)
 - [MAENMPC](https://github.com/m7a/lo-maenmpc)
+- [rmpc](https://github.com/mierak/rmpc)
 
 ### Cantata
 
@@ -49,3 +50,11 @@ Client developers should create a standard for common sticker names, to ensure i
 | ------- | ------ | ----------- |
 | playCount | Integer | How often the song was played (limited support) |
 | rating | Integer in range 0-10 | 5 Stars rating |
+
+### rmpc
+
+| Sticker | Format | Description |
+| ------- | ------ | ----------- |
+| playCount | Integer | How often the song was played (has to be configured by user) |
+| rating | Integer in range 0-10 | Rating of the song |
+| like | Integer in range 0-2 |0 - dislike, 1 - neutral, 2 - like |
