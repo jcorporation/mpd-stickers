@@ -20,7 +20,7 @@ Stickers for songs are attached to the song uri and are lost if the file was ren
 
 ### Stickers for albums
 
-The best way to add maintain stickers for albums is to use a filter expression and NOT the album tag. The album tag is not uniq across different artists, e. g. the album name "Best Of" is only stored once in the MPD database but can be the name of more than one album in the database.
+The best way to add maintain stickers for albums is to use a filter expression and NOT the album tag. The album tag is not unique across different artists, e. g. the album name "Best Of" is only stored once in the MPD database but can be the name of more than one album in the database.
 
 The recommended filter is:
 
