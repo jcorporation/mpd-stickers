@@ -27,7 +27,8 @@ The recommended filter is:
 ``((AlbumArtist == "<AlbumArtist>") AND (Album == "<Album>") AND (Date == "<Date>"))``
 
 - AlbumArtist falls back to Album (MPD default)
-- Date is optional, but recommended to differentiate various album released from one artist.
+- Date must be present in the filter if a Date metadata field exists for the album
+- The syntax of the filter must follow exactly this convention. E.g. the order of the comparisons, spacing and quotation must match. Otherwise different clients may not be able to find each other's album stickers.
 
 ## Clients with sticker support
 
