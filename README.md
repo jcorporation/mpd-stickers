@@ -29,6 +29,23 @@ The recommended filter is:
 - AlbumArtist falls back to Album (MPD default)
 - Date must be present in the filter if a Date metadata field exists for the album
 - The syntax of the filter must follow exactly this convention. E.g. the order of the comparisons, spacing and quotation must match. Otherwise different clients may not be able to find each other's album stickers.
+- [Discussion](https://github.com/jcorporation/mpd-stickers/discussions/10)
+
+## Overview
+
+| Client | elapsed | lastPlayed | lastSkipped | like | playCount | rating | skipCount |
+| ------ | ------- | ---------- | ----------- | ---- | --------- | ------ | --------- |
+| Cantata | | | | | | x | |
+| Euphonica | x | x | x | x | x | x | x |
+| mpdev | | | | | | x | |
+| MPDroid | | | | | | * | |
+| mpdfav | | | | | | * | |
+| myMPD | x | x | x | x | x | x | x |
+| MAENMPC | | | | | x | x | |
+| rmpc | | | | x | x | x | |
+
+- `x`: Support
+- `*`: Incompatible support
 
 ## Clients with sticker support
 
