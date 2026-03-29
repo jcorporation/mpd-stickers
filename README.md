@@ -33,6 +33,7 @@ The recommended filter is:
 ## Clients with sticker support
 
 - [Cantata](https://github.com/nullobsi/cantata)
+- [Euphonica](https://github.com/htkhiem/euphonica)
 - [mpdev](https://github.com/mbhangui/mpdev)
 - [myMPD](https://github.com/jcorporation/myMPD)
 - [MAENMPC](https://github.com/m7a/lo-maenmpc)
@@ -43,6 +44,18 @@ The recommended filter is:
 | Sticker | Format | Description |
 | ------- | ------ | ----------- |
 | rating | Integer in range 0-10 | 5 Stars rating, with half-stars |
+
+### Euphonica
+
+| Sticker | Format | Description |
+| ------- | ------ | ----------- |
+| elapsed | Unix timestamp | Recent song position |
+| lastPlayed | Unix timestamp | Last played time of song |
+| lastSkipped | Unix timestamp | Last skipped time of songs |
+| like | Integer in range 0-2 |0 - dislike, 1 - neutral, 2 - like |
+| playCount | Integer | How often the song was played |
+| rating | Integer in range 0-10 | 5 Stars rating |
+| skipCount | Integer | How often the song was skipped |
 
 ### mpdev
 
