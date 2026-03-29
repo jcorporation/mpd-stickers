@@ -35,6 +35,7 @@ The recommended filter is:
 - [Cantata](https://github.com/nullobsi/cantata)
 - [Euphonica](https://github.com/htkhiem/euphonica)
 - [mpdev](https://github.com/mbhangui/mpdev)
+- [MPDroid](https://github.com/abarisain/dmix)
 - [mpdfav](https://github.com/vincent-petithory/mpdfav)
 - [myMPD](https://github.com/jcorporation/myMPD)
 - [MAENMPC](https://github.com/m7a/lo-maenmpc)
@@ -63,6 +64,12 @@ The recommended filter is:
 | Sticker | Format | Description |
 | ------- | ------ | ----------- |
 | rating | Integer in range 0-10 | 5 Stars rating, with half-stars |
+
+### MPDroid
+
+| Sticker | Format | Description |
+| ------- | ------ | ----------- |
+| rating | Integer in range 0-100 | |
 
 ### mpdfav
 
