@@ -37,11 +37,11 @@ The recommended filter is:
 | ------ | ------- | ---------- | ----------- | ---- | --------- | ------ | --------- |
 | Cantata | | | | | | x | |
 | Euphonica | x | x | x | x | x | x | x |
-| mpdev | | | | | | x | |
-| MPDroid | | | | | | * | |
-| mpdfav | | | | | | * | |
-| myMPD | x | x | x | x | x | x | x |
 | MAENMPC | | | | | x | x | |
+| mpdev | | | | | | x | |
+| mpdfav | | | | | | * | |
+| MPDroid | | | | | | * | |
+| myMPD | x | x | x | x | x | x | x |
 | rmpc | | | | x | x | x | |
 
 - `x`: Support
@@ -51,11 +51,11 @@ The recommended filter is:
 
 - [Cantata](https://github.com/nullobsi/cantata)
 - [Euphonica](https://github.com/htkhiem/euphonica)
-- [mpdev](https://github.com/mbhangui/mpdev)
-- [MPDroid](https://github.com/abarisain/dmix)
-- [mpdfav](https://github.com/vincent-petithory/mpdfav)
-- [myMPD](https://github.com/jcorporation/myMPD)
 - [MAENMPC](https://github.com/m7a/lo-maenmpc)
+- [mpdev](https://github.com/mbhangui/mpdev)
+- [mpdfav](https://github.com/vincent-petithory/mpdfav)
+- [MPDroid](https://github.com/abarisain/dmix)
+- [myMPD](https://github.com/jcorporation/myMPD)
 - [rmpc](https://github.com/mierak/rmpc)
 
 ### Cantata
@@ -76,23 +76,30 @@ The recommended filter is:
 | rating | Integer in range 0-10 | 5 Stars rating |
 | skipCount | Integer | How often the song was skipped |
 
+### MAENMPC
+
+| Sticker | Format | Description |
+| ------- | ------ | ----------- |
+| playCount | Integer | How often the song was played (limited support) |
+| rating | Integer in range 0-10 | 5 Stars rating |
+
 ### mpdev
 
 | Sticker | Format | Description |
 | ------- | ------ | ----------- |
 | rating | Integer in range 0-10 | 5 Stars rating, with half-stars |
 
-### MPDroid
-
-| Sticker | Format | Description |
-| ------- | ------ | ----------- |
-| rating | Integer in range 0-100 | |
-
 ### mpdfav
 
 | Sticker | Format | Description |
 | ------- | ------ | ----------- |
 | rating | Unbounded integer | Rating from -inf to +inf |
+
+### MPDroid
+
+| Sticker | Format | Description |
+| ------- | ------ | ----------- |
+| rating | Integer in range 0-100 | |
 
 ### myMPD
 
@@ -105,13 +112,6 @@ The recommended filter is:
 | playCount | Integer | How often the song was played |
 | rating | Integer in range 0-10 | 5 Stars rating |
 | skipCount | Integer | How often the song was skipped |
-
-### MAENMPC
-
-| Sticker | Format | Description |
-| ------- | ------ | ----------- |
-| playCount | Integer | How often the song was played (limited support) |
-| rating | Integer in range 0-10 | 5 Stars rating |
 
 ### rmpc
 
