@@ -42,7 +42,7 @@ The recommended filter is:
 | mpdfav | | | | | | * | |
 | MPDroid | | | | | | * | |
 | myMPD | x | x | x | x | x | x | x |
-| rmpc | | | | x | x | x | |
+| rmpc | | x | | x | x | x | |
 
 - `x`: Support
 - `*`: Incompatible support
