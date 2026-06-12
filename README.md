@@ -120,3 +120,4 @@ The recommended filter is:
 | playCount | Integer | How often the song was played (has to be configured by user) |
 | rating | Integer in range 0-10 | Rating of the song |
 | like | Integer in range 0-2 |0 - dislike, 1 - neutral, 2 - like |
+| lastPlayed | Unix timestamp | Last played time of song |
